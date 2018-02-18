@@ -1,3 +1,95 @@
-body {
+/************************************************
+#ab0520 red
+#003366 blue
+*************************************************/
 
+/************************************************
+GLOBAL
+************************************************/
+
+a:link {
+    text-decoration: none;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+/************************************************
+HEADER
+************************************************/
+
+.header-top {
+    background-color: #ab0520;
+    height: 59px;
+}
+
+#header-logo-1 {
+    height: 26px;
+    margin-top: 18px;
+    padding-left: 65px;
+    width: 316px;
+}
+
+.header-bottom {
+    border-bottom: 1px solid #eef1f1;
+    height: 87px;
+}
+
+.header-bottom-right { margin: 15px 50px 0 0; }
+
+#header-logo-2 {
+    height: 43px;
+    margin: 16px 0 0 54px;
+    width: 228px;
+}
+
+#header-info-icon {
+    height: 22px;
+    width: 22px;
+}
+
+#header-nav-request {
+    color: #ab0520;
+    font-weight: 900;
+    padding: 0 20px 0 6px;
+}
+
+#header-caret {
+    font-size: 26px;
+    padding-right: 4px;
+}
+
+#header-nav-apply {
+    background: #ab0520;
+    color: #fff;
+    margin-right: 20px;
+    padding: 4px 8px;
+}
+
+#header-phone-icon {
+    height: 20px;
+    width: 20px;
+}
+
+#header-nav-phone {
+    color: #003366;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+#header-hamburger {
+    color: #003366;
+    font-size: 22px;
+}
+
+#header-nav-menu {
+    color: #003366;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+#search-info-icon {
+    height: 21px;
+    width: 21px;
 }
